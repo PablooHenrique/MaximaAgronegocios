@@ -11,7 +11,9 @@ import { IconsComponent } from '../../icons/icons.component';
 import { MapsComponent } from '../../maps/maps.component';
 import { NotificationsComponent } from '../../notifications/notifications.component';
 import { UpgradeComponent } from '../../upgrade/upgrade.component';
+
 import {BlankPageComponent} from '../../blank-page/blank.page.component';
+import { ProdutosComponent } from '../../produto/produtos.component';
 
 import {
   MatButtonModule,
@@ -37,7 +39,10 @@ import {
     IconsComponent,
     MapsComponent,
     NotificationsComponent,
-    UpgradeComponent
+    UpgradeComponent,
+    ProdutosComponent,
+    BlankPageComponent
+
   ]
 })
 

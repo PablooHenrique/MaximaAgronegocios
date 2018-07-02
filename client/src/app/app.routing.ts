@@ -4,7 +4,8 @@ import { BrowserModule  } from '@angular/platform-browser';
 import { Routes, RouterModule } from '@angular/router';
 
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
-import {BlankPageComponent} from './blank-page/blank.page.component';
+import { BlankPageComponent } from './blank-page/blank.page.component';
+import { ProdutosComponent } from './produto/produtos.component';
 
 const routes: Routes =[
   {
@@ -19,20 +20,8 @@ const routes: Routes =[
       path: '',
       loadChildren: './layouts/admin-layout/admin-layout.module#AdminLayoutModule'
   }]},
-    {
-      path: 'blank-page',
-      component: BlankPageComponent
-    }
-
-    // { path: 'dashboard',      component: DashboardComponent },
-    // { path: 'user-profile',   component: UserProfileComponent },
-    // { path: 'table-list',     component: TableListComponent },
-    // { path: 'typography',     component: TypographyComponent },
-    // { path: 'icons',          component: IconsComponent },
-    // { path: 'maps',           component: MapsComponent },
-    // { path: 'notifications',  component: NotificationsComponent },
-    // { path: 'upgrade',        component: UpgradeComponent },
-    // { path: '',               redirectTo: 'dashboard', pathMatch: 'full' }
+    // { path: 'blank-page', component: BlankPageComponent},
+    // { path: 'produtos', component: ProdutosComponent }
 ];
 
 @NgModule({
